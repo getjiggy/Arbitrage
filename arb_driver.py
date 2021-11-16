@@ -334,7 +334,7 @@ class AsyncClient(AIOHTTPProvider):
         pool.get_reserves(self.aioprovider, self.web3_async)
 
     # Main tri-route function. Incomplete.
-    # Currently hands and pools in arb condition to the triIntersect class to find if any profitable trades are available.
+    # Currently hands any pools in arb condition to the triIntersect class to find if any profitable trades are available.
     # TODO: add functionality to send/sign a profitable trade
     def check_tri_routes(self):
 
